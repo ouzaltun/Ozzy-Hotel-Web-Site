@@ -27,6 +27,14 @@ function DatePicker() {
             <CalendarIcon className="mr-2 h-5 w-5 text-black"></CalendarIcon>
           </Button>
         </PopoverTrigger>
+        <PopoverContent className="w-auto p-0">
+          <Calendar
+            mode="single"
+            selected={date}
+            onSelect={(newDate) => setDate(newDate)}
+            initialFocus
+          ></Calendar>
+        </PopoverContent>
       </Popover>
     </div>
   );
