@@ -24,7 +24,7 @@ function Nav({ containerStyles, listStyles }) {
     <nav className={`${containerStyles}`}>
       <ul className={`${listStyles}`}>
         {links.map((link, index) => (
-          <li>
+          <li key={index}>
             {" "}
             <Link href={link.path}>{link.pathname}</Link>
           </li>

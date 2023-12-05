@@ -1,4 +1,4 @@
-"use client;";
+"use client";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { Button } from "./ui/button";
@@ -12,7 +12,13 @@ import React from "react";
 
 function SearchBox() {
   return (
-    <div className="w-full max-w-[488px] bg-white max-h-max flex flex-col border border-outline rounded-[20px] p-10">
+    <motion.div
+      variants={fadeIn("up", 0.2)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0 }}
+      className="w-full max-w-[488px] bg-white max-h-max flex flex-col border border-outline rounded-[20px] p-10"
+    >
       <div className="mb-5">
         <Label htmlFor="destination">Gidilecek Yer</Label>
         <div className="relative flex justify-center items-center mb-[20px]">
@@ -45,7 +51,7 @@ function SearchBox() {
           Otel Ara
         </Button>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
