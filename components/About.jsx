@@ -16,7 +16,6 @@ function About() {
     threshold: !isMobile ? 0.5 : null,
   });
 
-  console.log(isMobile);
   return (
     <section className="py-12 xl:pt-0 xl:pb-24" ref={ref}>
       <div className="container mx-auto">
