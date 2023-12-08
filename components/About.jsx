@@ -24,7 +24,7 @@ function About() {
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.2 }}
             className="flex-1 relative"
           >
             <Image width={559} height={721} src={"/about/img1.png"}></Image>
@@ -33,7 +33,7 @@ function About() {
             variants={fadeIn("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            viewport={{ once: false, amount: 0.2 }}
             className=" xl:max-w-[470px]"
           >
             <h2 className="h2 mb-[38px]">About Ozzy Hotel</h2>

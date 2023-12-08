@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Featured from "@/components/Featured";
+import Recommendation from "@/components/Recommendation";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero></Hero>
       <Featured></Featured>
       <About></About>
+      <Recommendation></Recommendation>
       <Footer></Footer>
       <div className="h-[4000px]"></div>
     </main>
