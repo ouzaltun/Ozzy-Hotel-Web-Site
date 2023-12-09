@@ -62,7 +62,7 @@ function Recommendation() {
         viewport={{ once: false, amount: "0" }}
       >
         <Swiper
-          modules={Autoplay}
+          modules={[Autoplay]}
           autoplay={{ delay: 4000, disableOnInteraction: true }}
           loop
           speed={2000}
