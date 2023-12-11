@@ -55,7 +55,7 @@ const Testimonials = () => {
                   width={470}
                   height={470}
                   quality={100}
-                  alt=""
+                  alt="slide-img"
                   className="hidden xl:flex "
                 ></Image>
 

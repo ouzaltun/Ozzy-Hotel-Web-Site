@@ -95,7 +95,7 @@ function Recommendation() {
                       width={905}
                       height={528}
                       quality={100}
-                      alt=""
+                      alt="hotel-image"
                       className="relative xl:rounded-tl-[20px] xl:rounded-bl-[20px]"
                     ></Image>
 

@@ -27,7 +27,12 @@ function About() {
             viewport={{ once: false, amount: 0.2 }}
             className="flex-1 relative"
           >
-            <Image width={559} height={721} src={"/about/img1.png"}></Image>
+            <Image
+              alt="about"
+              width={559}
+              height={721}
+              src={"/about/img1.png"}
+            ></Image>
           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}

@@ -16,7 +16,7 @@ function Featured() {
           className="xl:mr-[50px]"
           width={73}
           height={84}
-          alt=""
+          alt="icon"
           src={"/featured/icon.svg"}
         ></Image>
         <h2 className="h2 flex-1 text-soft_green leading-relaxed">

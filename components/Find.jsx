@@ -76,7 +76,12 @@ function Find() {
               className="border-2 border-outline w-[270px] h-[390px] rounded-xl overflow-hidden hover:cursor-pointer group hover:bg-soft_green transitin-all duration-700 mx-auto xl:mx-0"
               key={index}
             >
-              <Image width={270} height={270} src={hotel.image}></Image>
+              <Image
+                alt="hotel-image"
+                width={270}
+                height={270}
+                src={hotel.image}
+              ></Image>
               <div className="p-6">
                 <h4 className="h4 group-hover:text-white transition-all duration-300">
                   {hotel.name}
